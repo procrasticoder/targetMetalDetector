@@ -12,7 +12,7 @@ document.getElementsByTagName("header")[0].innerHTML=`
         <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item mx-3">
-        <a class="nav-link" href="about-us.html">About Us</a>
+        <a class="nav-link" href="">About Us</a>
       </li>
       <li class="nav-item dropdown mx-3">
         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="background-color: #db0b00;
@@ -32,7 +32,7 @@ document.getElementsByTagName("header")[0].innerHTML=`
         </ul>
       </li>
       <li class="nav-item mx-3">
-        <a class="nav-link" href="contact.html">Contact Us</a>
+        <a class="nav-link" href="">Contact Us</a>
       </li>
     </ul>
   </div>
@@ -45,10 +45,10 @@ document.getElementsByTagName('footer')[0].innerHTML=`
     <h3>
         Quick Links
     </h3>
-    <a href="index.html">Home</a>
-    <a href="about-us.html">About Us</a>
-    <a href="products.html">Products</a>
-    <a href="contact.html">Contact</a>
+    <a href="">Home</a>
+    <a href="">About Us</a>
+    <a href="">Products</a>
+    <a href="">Contact</a>
     <div class="footerline"></div>
 </div>
 
