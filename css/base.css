@@ -27,7 +27,9 @@ header{
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(214, 0, 0);
+    border-radius: 3px;
 }
 
 .navbar-light .navbar-nav .nav-link {

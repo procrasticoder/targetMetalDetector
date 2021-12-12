@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <span id="current-page" style="display:none">home</span>
     <!-- navbar -->
     <header>
 
@@ -117,12 +118,11 @@
     <p style="text-align: center;">Manufacturer and Suplier of Aromatic Sovents, Mix Aromatic Solvent, Low Aromatic Solvent, Industrial Fuel Furnace Oil, Light Diesel Oil etc.</p>
   </div>
 </div>
-
 <!-- flash header end -->
 
 <!-- company profile starts here -->
 <div class="container-fluid py-4" style="background-color: rgb(240, 240, 240);">
-    <h1 class="mx-4 " style="color: #ff0000;">Welcome to Our Website</h1>
+    <h2 class="mx-4 " style="color: #ff0000;">Welcome to Our Website</h2>
     <p class="mx-4 py-4">Metal Detector India - Target Innovations, an ISO 9001:2000 Certified Company, was set up in the year 2001 in Vasco Da Gama (Goa). Mr. Rajesh K. Gopinath, the experienced Owner of the enterprise, has consistently put in his best efforts to take the company to the sky-scrapping heights in the industry. The company is thus renowned as a famous Metal Detectors Manufacturer, Exporter, and Supplier in India. Our Metal Detectors include Metal Detector For Bakery Industry , Metal Detector For Confectionery Industry, Metal Detector For Food Processing Industry, and Metal Detector For Pharmaceutical Industry. <a href="" style="text-decoration: none; color: #ff0000;"><b>Read more...</b></a> </p>
     <div class="company-profile mx-auto">
         <div class="card">
@@ -158,7 +158,7 @@
   <!-- products section here -->
   <div class="container-fluid py-3" style="background: linear-gradient(
     135deg, rgb(214, 0, 0) 10%, transparent 10%, transparent 90%, black 90%);">
-    <h1 class="mx-auto pt-3" style="color: #000; text-align:center;">Discover Our Range</h1>
+    <h2 class="mx-auto pt-3" style="color: #000; text-align:center;">Discover Our Range</h2>
 
     <div class="product-section mx-auto my-4 py-4">
         <div class="card" style="width: 18rem;" onclick="navigate(1,'aromatic-solvent')">
@@ -251,6 +251,8 @@
     //   dest.setAttribute('href','products-'+x+'.html#'+y);
     //   dest.click();
     // }
+    var currentPage=document.getElementById('current-page').innerHTML
+    document.getElementById(currentPage).classList.add('active');
     </script>
     <!-- navigation bar script end -->
 </body>

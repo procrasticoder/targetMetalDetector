@@ -9,14 +9,14 @@ document.getElementsByTagName("header")[0].innerHTML=`
     
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
       <li class="nav-item mx-3">
-        <a class="nav-link" href="index.html">Home</a>
+        <a id='home' class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item mx-3">
-        <a class="nav-link" href="">About Us</a>
+        <a id='home' class="nav-link" href="">About Us</a>
       </li>
       <li class="nav-item dropdown mx-3">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="background-color: #db0b00;
-        border-radius: 3px; color: #fff;">Products</a>
+        <a id='home' class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="background-color: #000;
+        border-radius: 3px; color: red;">Products</a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item"  href="">Filling Machines</a></li>
           <li><hr class="dropdown-divider"></li>
@@ -32,7 +32,7 @@ document.getElementsByTagName("header")[0].innerHTML=`
         </ul>
       </li>
       <li class="nav-item mx-3">
-        <a class="nav-link" href="">Contact Us</a>
+        <a id='contact' class="nav-link" href="">Contact Us</a>
       </li>
     </ul>
   </div>
